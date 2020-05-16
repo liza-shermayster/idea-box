@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-paz-app-dev-160557-authRole",
+            "UnauthRoleArn": "arn:aws:iam::504043707048:role/amplify-paz-app-dev-160557-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::504043707048:role/amplify-paz-app-dev-160557-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-paz-app-dev-160557-deployment",
+            "UnauthRoleName": "amplify-paz-app-dev-160557-unauthRole",
+            "StackName": "amplify-paz-app-dev-160557",
+            "StackId": "arn:aws:cloudformation:eu-central-1:504043707048:stack/amplify-paz-app-dev-160557/2e443560-8563-11ea-91e2-0a1a4d297742",
+            "AmplifyAppId": "d1nr2hljkp3p6i"
+        },
+        "categories": {
+            "auth": {
+                "pazapp52d0b2f3": {}
+            }
+        }
+    }
+}
