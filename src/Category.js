@@ -28,7 +28,7 @@ export function Category() {
   const { items } = current.context;
 
   return (
-    <div>
+    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white p-4">
       <ul>
         {items.map((i) => (
           <li key={i}>{i}</li>
