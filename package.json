@@ -12,9 +12,13 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "tailwindcss": "^1.4.6",
     "xstate": "^4.9.1"
   },
   "scripts": {
+    "tailwind:build": "tailwindcss build ./src/tailwind.src.css tailwind.config.js -o ./src/tailwind.css",
+    "prestart": "npm run tailwind:build",
+    "prebuild": "npm run tailwind:build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
