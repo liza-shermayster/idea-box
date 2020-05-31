@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="App min-h-screen min-w-full">
       <header className="mb-10 shadow-xl bg-opacity-50 bg-purple-800">
-        <nav class="flex items-center justify-between flex-wrap text-white p-6">
+        <nav className="flex items-center justify-between flex-wrap text-white p-6">
           header
         </nav>
       </header>
